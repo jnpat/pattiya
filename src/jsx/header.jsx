@@ -18,7 +18,7 @@ function Header() {
                 <div className={show ? "collapse navbar-collapse" : "collapse navbar-collapse active"}>
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <Link className="nav-link text-dark" to={'/'}>Home</Link>
+                            <Link className="nav-link text-dark" to={'home'}>Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-dark" to={'/info'}>Personal Info.</Link>
