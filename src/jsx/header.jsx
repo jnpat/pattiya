@@ -11,11 +11,9 @@ function Header() {
             <div className="container">
                 <Link className="navbar-brand text-dark" to={'/'}>Welcome,</Link>
                 <button className="navbar-toggler border-dark text-dark" onClick={() => setShow(!show)}>
-                    {show ? (<img src={process.env.PUBLIC_URL + "/icons/bars-solid.svg"}
-                        style={{ width: "20px", height: "20px" }}></img>)
+                    {show ? (<i class="fas fa-bars"></i>)
                         :
-                        (<img src={process.env.PUBLIC_URL + "/icons/times-solid.svg"}
-                            style={{ width: "20px", height: "20px" }}></img>)}
+                        (<i class="fas fa-times"></i>)}
                 </button>
                 <div className={show ? "collapse navbar-collapse" : "collapse navbar-collapse active"}>
                     <ul className="navbar-nav ms-auto">

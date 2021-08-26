@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #F5F1EA;
 }
 nav{
   top:0;
@@ -21,4 +22,11 @@ nav .navbar-collapse.collapse{
 nav .navbar-collapse{
   transition: .6s all ease-in-out;
   height: 0 !important;
+}
+
+.footer{
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
 }
