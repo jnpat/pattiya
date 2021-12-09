@@ -32,8 +32,35 @@ nav .navbar-collapse{
 }
 
 .home{
-  padding-top: 5vh;
+  /* margin-top: 5vh; */
+  padding-top: 10%;
+  padding-bottom: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.img-home{
+  background-color: #DCD2C8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 50rem; */
+}
+
+.skill{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.sticky + .header {
+  padding-top: 102px;
 }
