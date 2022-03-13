@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import MyCard from "./card-home";
 
 function Home() {
+
     return (
         <div id="home" className="home">
             <div className="container">

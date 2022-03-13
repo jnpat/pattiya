@@ -1,32 +1,28 @@
 import React from "react";
 import { Table } from 'react-bootstrap';
 
-function Tables() {
+function Tables(props) {
     return (
-        <Table responsive size="sm" className='table-lang'>
+        <Table>
             <tbody>
                 <tr>
-                    <th>THAI</th>
-                    <td>100%</td>
-                    <td>100%</td>
-                    <td>100%</td>
-                    <td>100%</td>
+                    <th>{props.one}</th>
                 </tr>
                 <tr>
-                    <th>ENGLISH</th>
-                    <td>75%</td>
-                    <td>60%</td>
-                    <td>70%</td>
-                    <td>70%</td>
+                    <th>{props.two}</th>
                 </tr>
                 <tr>
-                    <th>JAPANESE (N5)</th>
-                    <td>40%</td>
-                    <td>40%</td>
-                    <td>40%</td>
-                    <td>40%</td>
+                    <th>{props.three}</th>
                 </tr>
-
+                {props.four !== "" ? <tr>
+                    <th>{props.four}</th>
+                </tr> : <></>}
+                {props.five !== "" ? <tr>
+                    <th>{props.five}</th>
+                </tr> : <></>}
+                {props.six !== "" ? <tr>
+                    <th>{props.six}</th>
+                </tr> : <></>}
             </tbody>
         </Table>
     );

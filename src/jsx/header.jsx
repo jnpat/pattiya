@@ -1,16 +1,25 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom'
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import MyVerticallyCenteredModal from "./modal";
+// import { Navbar, Nav, Container, Modal } from 'react-bootstrap';
 // import "../css/Header.css";
 
 function Header() {
 
     const [show, setShow] = useState(true);
+    const [modalShow, setModalShow] = useState(true);
+    const [inputName, setName] = useState("");
 
     return (
         <nav className="navbar navbar-expand-lg fixed-top" style={{ backgroundColor: "#8C9086" }} >
+            <MyVerticallyCenteredModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+                inputName={inputName}
+                setName={setName}
+            />
             <div className="container">
-                <Link className="navbar-brand text-dark" to={'/'}>Welcome,</Link>
+                <Link className="navbar-brand text-dark" to={'/'}>Welcome, {inputName}</Link>
                 <button className="navbar-toggler border-dark text-dark" onClick={() => setShow(!show)}>
                     {show ? (<i class="fas fa-bars"></i>)
                         :
@@ -25,15 +34,16 @@ function Header() {
                             <a className="nav-link text-dark" href='#skill' onClick={() => setShow(!show)}>Personal Info.</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark" href='/background' onClick={() => setShow(!show)}>Background</a>
+                            <a className="nav-link text-dark" href='#background' onClick={() => setShow(!show)}>Background</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark" href='/contact' onClick={() => setShow(!show)}>Contact</a>
+                            <a className="nav-link text-dark" href='#contact' onClick={() => setShow(!show)}>Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
         // <Navbar expand="lg" fixed="top" style={{ backgroundColor: "#8C9086" }}>
         //     <Container>
         //         <Navbar.Brand href="/">Pattiya</Navbar.Brand>
