@@ -5,6 +5,8 @@ import Header from './jsx/header';
 import Footer from './jsx/footer';
 import Home from './jsx/home';
 import Skill from './jsx/skill';
+import Background from './jsx/background';
+import Contact from './jsx/contact';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <Header />
         <Home />
         <Skill />
+        <Background />
         <Footer />
+        <Contact />
       </div>
     </Router>
   );

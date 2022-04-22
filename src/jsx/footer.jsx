@@ -1,7 +1,7 @@
 import React from "react";
 import { IconButton } from '@material-ui/core';
 
-function Footer (){
+function Footer() {
 
     return(
         <div className="footer fixed-bottom" style={{ backgroundColor: "#8C9086" }}>
