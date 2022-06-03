@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pattiya/static/css/main.3598975f.chunk.css",
+    "main.js": "/pattiya/static/js/main.4b6c5ee4.chunk.js",
+    "main.js.map": "/pattiya/static/js/main.4b6c5ee4.chunk.js.map",
+    "runtime-main.js": "/pattiya/static/js/runtime-main.abce42fe.js",
+    "runtime-main.js.map": "/pattiya/static/js/runtime-main.abce42fe.js.map",
+    "static/css/2.818011ed.chunk.css": "/pattiya/static/css/2.818011ed.chunk.css",
+    "static/js/2.9218f06f.chunk.js": "/pattiya/static/js/2.9218f06f.chunk.js",
+    "static/js/2.9218f06f.chunk.js.map": "/pattiya/static/js/2.9218f06f.chunk.js.map",
+    "static/js/3.2af22d79.chunk.js": "/pattiya/static/js/3.2af22d79.chunk.js",
+    "static/js/3.2af22d79.chunk.js.map": "/pattiya/static/js/3.2af22d79.chunk.js.map",
+    "index.html": "/pattiya/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/pattiya/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.3598975f.chunk.css.map": "/pattiya/static/css/main.3598975f.chunk.css.map",
+    "static/js/2.9218f06f.chunk.js.LICENSE.txt": "/pattiya/static/js/2.9218f06f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abce42fe.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.9218f06f.chunk.js",
+    "static/css/main.3598975f.chunk.css",
+    "static/js/main.4b6c5ee4.chunk.js"
+  ]
+}
