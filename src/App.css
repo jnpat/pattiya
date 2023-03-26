@@ -71,7 +71,7 @@ nav .navbar-collapse{
   width: 20rem;
   background-color: #DCD2C8;
   border-radius: 5rem;
-  /* display: inline-flex; */
+  display: inline-flex;
   margin: 2rem;
   /* justify-content: center; */
   /* align-items: center; */
