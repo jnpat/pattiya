@@ -11,10 +11,12 @@ function Home() {
             <MyCard
               title="Hello Everyone,"
               name="My name is Pattiya Apiratmontree."
-              content="I am a new graduated computer engineering student at Chiangmai University with GPA 3.21
-                         So I would like to seeking job position as Front-end Developer to find an experience and 
-                         improve my working skills to be a quality developer, 
-                         Moreover I am able to work under pressure and I am ready to learn new things."
+              content="I graduated with a Bachelor's degree in Computer Enginering at Chiang Mai University with a GPA of 3.21.
+                         My current position as a software engineer that I have one and a half years of experience working
+                          has provide me with the opportunity to work in a high-presure and team environment, 
+                         where it is essential to be able to closely with my colleagues in order to meet deadlines.
+                         Now, I am ready to learn new things, hence I would like to seek a job position as a Front-end Developer to gain more experience and
+                         improve my working skills to be a quality developer."
               style="fs-1 fw-bold"
             />
           </div>
