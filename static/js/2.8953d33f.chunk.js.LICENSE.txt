@@ -1,4 +1,10 @@
 /*
+          object-assign
+          (c) Sindre Sorhus
+          @license MIT
+          */
+
+/*
     object-assign
     (c) Sindre Sorhus
     @license MIT
@@ -16,6 +22,42 @@ object-assign
   http://jedwatson.github.io/classnames
 */
 
+/*! ./Component */
+
+/*! ./Context */
+
+/*! ./checkPropTypes */
+
+/*! ./cjs/react-is.development.js */
+
+/*! ./factoryWithTypeCheckers */
+
+/*! ./lib/ReactPropTypesSecret */
+
+/*! ./lib/has */
+
+/*! ./mediaQuery */
+
+/*! ./toQuery */
+
+/*! ./useMediaQuery */
+
+/*! css-mediaquery */
+
+/*! hyphenate-style-name */
+
+/*! matchmediaquery */
+
+/*! object-assign */
+
+/*! prop-types */
+
+/*! react */
+
+/*! react-is */
+
+/*! shallow-equal */
+
 /**
  * A better abstraction over CSS.
  *
@@ -32,6 +74,15 @@ object-assign
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
+/** @license React v16.13.1
+           * react-is.development.js
+           *
+           * Copyright (c) Facebook, Inc. and its affiliates.
+           *
+           * This source code is licensed under the MIT license found in the
+           * LICENSE file in the root directory of this source tree.
+           */
 
 /** @license React v16.13.1
      * react.production.min.js
