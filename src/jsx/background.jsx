@@ -36,27 +36,30 @@ const Background = () => {
                   </>
                 ) : (
                   <>
-                    <div
-                      className="col-xl-6 col-lg-6 col-md-6"
-                      style={{ textAlign: "center", padding: "3rem" }}
-                    >
-                      <br />
-                      <h3>Software Engineer</h3>
-                      <h3>Full-stack Developer</h3>
+                    <div className="row" style={{ padding: "2rem" }}>
+                      <div className="col-xl-6 col-lg-6 col-md-6">
+                        <h3>Software Engineer</h3>
+                      </div>
+                      <div className="col-xl-6 col-lg-6 col-md-6">
+                        <h5>
+                          One year (Full-time) work experience at <br />
+                          TRADITION BROKERS (THAILAND) CO., LTD.
+                        </h5>
+                      </div>
                     </div>
-                    <div
-                      className="col-xl-6 col-lg-6 col-md-6"
-                      style={{ textAlign: "center", padding: "3rem" }}
-                    >
-                      <br />
-                      <h5>
-                        One year (Full-time) work experience at <br />
-                        TRADITION BROKERS (THAILAND) CO., LTD.
-                      </h5>
-                      <h5>
-                        Half year (Part-time) work experience at <br />
-                        PHITECH IPB CO., LTD.
-                      </h5>
+                    <div className="row" style={{ paddingBottom: "2rem" }}>
+                      <div className="col-xl-6 col-lg-6 col-md-6">
+                        <h3>Full-stack Developer</h3>
+                      </div>
+                      <div
+                        className="col-xl-6 col-lg-6 col-md-6"
+                        style={{ paddingButton: "2rem" }}
+                      >
+                        <h5>
+                          Half year (Part-time) work experience at <br />
+                          PHITECH IPB CO., LTD.
+                        </h5>
+                      </div>
                     </div>
                   </>
                 )}
