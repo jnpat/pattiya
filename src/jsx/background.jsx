@@ -14,6 +14,52 @@ const Background = () => {
               <h1>- WORK BACKGROUND -</h1>
               <hr size="5"></hr>
               <div className="row">
+                {isMobile ? (
+                  <>
+                    <div
+                      className="col-xl-12 col-lg-12 col-md-12"
+                      style={{ textAlign: "center", padding: "3rem" }}
+                    >
+                      <br />
+                      <h3>Software Engineer</h3>
+                      <h5>
+                        One year (Full-time) work experience at TRADITION
+                        BROKERS (THAILAND) CO., LTD.
+                      </h5>
+                      <br />
+                      <h3>Full-stack Developer</h3>
+                      <h5>
+                        Half year (Part-time) work experience at PHITECH IPB
+                        CO., LTD.
+                      </h5>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div
+                      className="col-xl-6 col-lg-6 col-md-6"
+                      style={{ textAlign: "center", padding: "3rem" }}
+                    >
+                      <br />
+                      <h3>Software Engineer</h3>
+                      <h3>Full-stack Developer</h3>
+                    </div>
+                    <div
+                      className="col-xl-6 col-lg-6 col-md-6"
+                      style={{ textAlign: "center", padding: "3rem" }}
+                    >
+                      <br />
+                      <h5>
+                        One year (Full-time) work experience at <br />
+                        TRADITION BROKERS (THAILAND) CO., LTD.
+                      </h5>
+                      <h5>
+                        Half year (Part-time) work experience at <br />
+                        PHITECH IPB CO., LTD.
+                      </h5>
+                    </div>
+                  </>
+                )}
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <ReactPlayer
                     width="100%"
