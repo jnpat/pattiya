@@ -1,7 +1,7 @@
-import MyCard from "./card-home";
+import MyCard from "./cardHome";
 import { useMediaQuery } from "react-responsive";
 
-function Home() {
+const Home = () => {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
   return (
     <div id="home" className="home">
@@ -37,6 +37,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;

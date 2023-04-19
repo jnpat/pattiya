@@ -1,7 +1,7 @@
 import React from "react";
 import Tables from "./table";
 
-function SkillCard(props) {
+const SkillCard = (props) => {
   return (
     <div className="skill-card">
       <div className="container-fluid pt-5">
@@ -28,12 +28,12 @@ function SkillCard(props) {
         <div>
           {props.table === "2" ? (
             <Tables
-              one="SQL"
+              one="MySQL | ProgreSQL"
               two="Python"
               three="Flutter"
-              four="ReactJS"
+              four="ReactJS & NextJs"
               five="Javascript & Typescript"
-              six="Amazon Web Services"
+              six=""
             />
           ) : (
             <></>
@@ -46,7 +46,7 @@ function SkillCard(props) {
               two="Presentation"
               three="Writing Report"
               four="Microsoft skills"
-              five=""
+              five="Amazon Web Services"
               six=""
             />
           ) : (
@@ -56,6 +56,6 @@ function SkillCard(props) {
       </div>
     </div>
   );
-}
+};
 
 export default SkillCard;

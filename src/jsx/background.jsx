@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import { IconButton } from "@material-ui/core";
 import { useMediaQuery } from "react-responsive";
 
-function Background() {
+const Background = () => {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
   return (
     <div id="background" className="bg">
@@ -71,6 +71,6 @@ function Background() {
       </div>
     </div>
   );
-}
+};
 
 export default Background;

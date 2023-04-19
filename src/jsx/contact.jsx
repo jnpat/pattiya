@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import { useState } from "react";
 // import { IconButton } from '@material-ui/core';
 
-function Contact() {
+const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -89,6 +89,6 @@ function Contact() {
       </div>
     </div>
   );
-}
+};
 
 export default Contact;

@@ -1,9 +1,9 @@
 import React from "react";
-import SkillCard from "./card-skill";
+import SkillCard from "./cardSkill";
 import ControlledCarousel from "./imcarousel";
 import { useMediaQuery } from "react-responsive";
 
-function Skill() {
+const Skill = () => {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
   return (
     <div id="skill" className="skill">
@@ -102,6 +102,6 @@ function Skill() {
       </div>
     </div>
   );
-}
+};
 
 export default Skill;

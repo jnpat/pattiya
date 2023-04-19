@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-function ControlledCarousel(props) {
+const ControlledCarousel = (props) => {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -33,6 +33,6 @@ function ControlledCarousel(props) {
       </Carousel.Item>
     </Carousel>
   );
-}
+};
 
 export default ControlledCarousel;

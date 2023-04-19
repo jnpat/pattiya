@@ -1,7 +1,7 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-function Tables(props) {
+const Tables = (props) => {
   return (
     <Table>
       <tbody>
@@ -38,5 +38,5 @@ function Tables(props) {
       </tbody>
     </Table>
   );
-}
+};
 export default Tables;
