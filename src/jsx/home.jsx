@@ -25,7 +25,7 @@ const Home = () => {
               <img
                 className="img-fluid"
                 style={{
-                  width: "20rem",
+                  width: "17rem",
                   height: "25rem",
                   marginBlock: isMobile ? "3rem" : "0rem",
                 }}
