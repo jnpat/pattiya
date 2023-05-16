@@ -45,6 +45,7 @@ const Contact = () => {
                       <a href="mailto:jean_pattiya@hotmail.com">
                         jean_pattiya@hotmail.com
                       </a>
+                      <br />
                       <i class="fa fa-map-pin p-3"></i>
                       <br />
                       <a>244/3 moo.3 Nong kwai, Hang Dong, Chiang Mai 50230</a>
