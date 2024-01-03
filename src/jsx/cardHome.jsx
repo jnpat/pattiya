@@ -14,7 +14,8 @@ const MyCard = (props) => {
       />
       <br />
       <br />
-      <h6>{props.content}</h6>
+      <h6>&emsp;{props.content}</h6>
+      <h6>&emsp;{props.subContent}</h6>
     </div>
   );
 };

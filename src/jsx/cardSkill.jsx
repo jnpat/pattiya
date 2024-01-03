@@ -28,12 +28,12 @@ const SkillCard = (props) => {
         <div>
           {props.table === "2" ? (
             <Tables
-              one="MySQL | ProgreSQL"
+              one=".NET (C#)"
               two="Python"
               three="Flutter"
-              four="ReactJS & NextJs"
-              five="Javascript & Typescript"
-              six=""
+              four="MySQL | ProgreSQL"
+              five="ReactJS & NextJs"
+              six="Javascript & Typescript"
             />
           ) : (
             <></>
@@ -45,9 +45,9 @@ const SkillCard = (props) => {
               one="UI Design"
               two="Presentation"
               three="Writing Report"
-              four="Microsoft skills"
+              four="Microsoft Skills"
               five="Amazon Web Services"
-              six=""
+              six="Unit tests & Integration tests"
             />
           ) : (
             <></>

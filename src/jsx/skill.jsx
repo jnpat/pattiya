@@ -73,11 +73,19 @@ const Skill = () => {
               >
                 <h2>- CURRICULAR ACTIVITIES -</h2>
                 <h5 style={{ marginTop: "2rem" }}>Teacher Assistant</h5>
+                <h6>Data Stuctures for Computer Engineers</h6>
+                <h6>Computer Programming for Engineers</h6>
+                <h6>Computer Programming for Non-IT Majors</h6>
                 <div
                   className="col-xl-12 col-lg-12 col-md-12"
                   style={{ marginTop: "2rem" }}
                 >
                   <h5>Member of Academic Club of Engineering</h5>
+                  <h6>Staff of Born to be an engineer #4</h6>
+                  <h6>Staff of Born to be an engineer #5</h6>
+                  <h6 style={{ marginBottom: "2rem" }}>
+                    Staff of To be engineer #12
+                  </h6>
                   <ControlledCarousel
                     im1="/images/acces.jpeg"
                     im2="/images/acces2.jpeg"

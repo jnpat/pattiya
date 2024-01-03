@@ -23,8 +23,8 @@ const Background = () => {
                       <br />
                       <h3>Software Engineer</h3>
                       <h5>
-                        One year (Full-time) work experience at TRADITION
-                        BROKERS (THAILAND) CO., LTD.
+                        One and a half years (Full-time) work experience at
+                        TRADITION BROKERS (THAILAND) CO., LTD.
                       </h5>
                       <br />
                       <h3>Full-stack Developer</h3>
@@ -42,7 +42,8 @@ const Background = () => {
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-6">
                         <h5>
-                          One year (Full-time) work experience at <br />
+                          One and a half years (Full-time) work experience at
+                          <br />
                           TRADITION BROKERS (THAILAND) CO., LTD.
                         </h5>
                       </div>
