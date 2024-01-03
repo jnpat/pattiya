@@ -1,25 +1,15 @@
 {
   "files": {
-    "main.css": "/pattiya/static/css/main.6a905666.chunk.css",
-    "main.js": "/pattiya/static/js/main.e99b5a1e.chunk.js",
-    "main.js.map": "/pattiya/static/js/main.e99b5a1e.chunk.js.map",
-    "runtime-main.js": "/pattiya/static/js/runtime-main.aa456635.js",
-    "runtime-main.js.map": "/pattiya/static/js/runtime-main.aa456635.js.map",
-    "static/css/2.818011ed.chunk.css": "/pattiya/static/css/2.818011ed.chunk.css",
-    "static/js/2.8953d33f.chunk.js": "/pattiya/static/js/2.8953d33f.chunk.js",
-    "static/js/2.8953d33f.chunk.js.map": "/pattiya/static/js/2.8953d33f.chunk.js.map",
-    "static/js/3.203181e2.chunk.js": "/pattiya/static/js/3.203181e2.chunk.js",
-    "static/js/3.203181e2.chunk.js.map": "/pattiya/static/js/3.203181e2.chunk.js.map",
+    "main.css": "/pattiya/static/css/main.54dbc635.css",
+    "main.js": "/pattiya/static/js/main.a30dad5f.js",
+    "static/js/787.73ed1fa4.chunk.js": "/pattiya/static/js/787.73ed1fa4.chunk.js",
     "index.html": "/pattiya/index.html",
-    "static/css/2.818011ed.chunk.css.map": "/pattiya/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.6a905666.chunk.css.map": "/pattiya/static/css/main.6a905666.chunk.css.map",
-    "static/js/2.8953d33f.chunk.js.LICENSE.txt": "/pattiya/static/js/2.8953d33f.chunk.js.LICENSE.txt"
+    "main.54dbc635.css.map": "/pattiya/static/css/main.54dbc635.css.map",
+    "main.a30dad5f.js.map": "/pattiya/static/js/main.a30dad5f.js.map",
+    "787.73ed1fa4.chunk.js.map": "/pattiya/static/js/787.73ed1fa4.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa456635.js",
-    "static/css/2.818011ed.chunk.css",
-    "static/js/2.8953d33f.chunk.js",
-    "static/css/main.6a905666.chunk.css",
-    "static/js/main.e99b5a1e.chunk.js"
+    "static/css/main.54dbc635.css",
+    "static/js/main.a30dad5f.js"
   ]
 }
